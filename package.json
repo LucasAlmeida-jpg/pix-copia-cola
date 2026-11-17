@@ -1,0 +1,24 @@
+{
+  "name": "pix-copia-e-cola",
+  "version": "0.1.0",
+  "description": "Gera o código Pix copia e cola (BR Code) sem dependências",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["pix", "brcode", "qrcode", "copia e cola", "brasil", "pagamento"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAlmeida-jpg/pix-copia-cola.git"
+  },
+  "homepage": "https://github.com/LucasAlmeida-jpg/pix-copia-cola#readme",
+  "bugs": "https://github.com/LucasAlmeida-jpg/pix-copia-cola/issues"
+}
