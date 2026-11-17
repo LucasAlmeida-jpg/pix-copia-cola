@@ -1,6 +1,6 @@
 {
   "name": "pix-copia-e-cola",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gera o código Pix copia e cola (BR Code) sem dependências",
   "type": "module",
   "exports": {
@@ -9,11 +9,21 @@
       "default": "./index.js"
     }
   },
-  "files": ["index.js", "index.d.ts"],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "node --test"
   },
-  "keywords": ["pix", "brcode", "qrcode", "copia e cola", "brasil", "pagamento"],
+  "keywords": [
+    "pix",
+    "brcode",
+    "qrcode",
+    "copia e cola",
+    "brasil",
+    "pagamento"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
